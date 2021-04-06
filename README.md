@@ -21,6 +21,8 @@ from numba import njit
 ### Generating Waypoints
 To easily generate waypoints for testing, we will use a modified version of my [Waypoint Generator](https://github.com/winstxnhdw/WaypointGenerator) script. The generated waypoints are exported as a CSV file and can be imported again using the pandas library.
 
+
+```python
 %matplotlib widget
 
 import matplotlib.pyplot as plt
@@ -118,5 +120,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+```
+
+
+    Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
+
 
 !jupyter nbconvert main.ipynb --to markdown --output README.md
