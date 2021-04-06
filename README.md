@@ -4,12 +4,7 @@ This notebook elaborates the testing and development of an offline path planning
 ### Installation
 Before beginning, it is important to install all the dependencies to run all cells in this notebook.
 
-
-```python
-%%script false
-
 !pip install -r requirements.txt
-```
 
 ### Imports
 
@@ -26,9 +21,6 @@ from numba import njit
 ### Generating Waypoints
 To easily generate waypoints for testing, we will use a modified version of my [Waypoint Generator](https://github.com/winstxnhdw/WaypointGenerator) script. The generated waypoints are exported as a CSV file and can be imported again using the pandas library.
 
-
-```python
-%%script false
 %matplotlib widget
 
 import matplotlib.pyplot as plt
@@ -126,9 +118,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
 
-
-```python
-
-```
+!jupyter nbconvert main.ipynb --to markdown --output README.md
