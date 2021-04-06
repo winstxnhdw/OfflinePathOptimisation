@@ -107,6 +107,9 @@ def main():
     point_colour = '#383831'
 
     fig = plt.figure()
+    fig.canvas.toolbar_visible = False
+    fig.canvas.header_visible = False
+    fig.canvas.resizable = True
     ax = plt.axes()
     ax.set_aspect('equal', adjustable='box')
     ax.set_xlim(-map_size, map_size)
@@ -125,5 +128,10 @@ if __name__ == '__main__':
 
     Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
 
+
+
+```python
+### Export notebook as Markdown
+```
 
 !jupyter nbconvert main.ipynb --to markdown --output README.md
