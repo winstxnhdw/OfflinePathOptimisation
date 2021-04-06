@@ -129,9 +129,6 @@ if __name__ == '__main__':
     Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
 
 
-
-```python
 ### Export notebook as Markdown
-```
 
 !jupyter nbconvert main.ipynb --to markdown --output README.md
