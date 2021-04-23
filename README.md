@@ -8,7 +8,9 @@ This notebook elaborates the testing and development of an offline path planning
 ## Approaches
 - [Focused Trajectory Planning for Autonomous On-Road Driving](https://www.ri.cmu.edu/pub_files/2013/6/IV2013-Tianyu.pdf) by Gu et. al.
 
-- Constrained Quadratic Path Curvature Optimisation
+- Constrained Segmented Quadratic Path Optimisation
+
+- Unconstrained Quadratic Path Optimisation
 ## Installation
 ### Package Installer for Python
 ```bash
