@@ -10,7 +10,7 @@ This notebook elaborates the testing and development of an offline path planning
 
 - Segmented Constrained Path Optimisation
 
-- Unconstrained Quadratic Waypoint Optimisation
+- Unconstrained Waypoint Optimisation
 ## Installation
 ### Package Installer for Python
 ```bash
