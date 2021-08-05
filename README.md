@@ -25,16 +25,8 @@ A controlled real-world test was conducted only on the waypoints which were gene
 
 ## Installation
 
-### Package Installer for Python
-
 ```bash
 $ pip install -r requirements.txt
-```
-
-### Anaconda
-
-```bash
-$ conda create --name <env> --file conda_requirements.txt
 ```
 
 ### Convert PNG sequence to GIF (ImageMagick)
