@@ -29,7 +29,7 @@ A controlled real-world test was conducted only on the waypoints which were gene
 $ pip install -r requirements.txt
 ```
 
-### Convert PNG sequence to GIF (ImageMagick)
+## Convert PNG sequence to GIF (ImageMagick)
 
 ```bash
 $ convert -delay 1x60 visualisation_*.png -loop 0 -background white -alpha remove vis.gif
