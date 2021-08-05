@@ -21,23 +21,13 @@ This notebook elaborates the testing and development of an offline path planning
 A controlled real-world test was conducted only on the waypoints which were generated from the Unconstrained Waypoint Optimisation approach. Empirical data displayed a more comfortable and human-like ride when compared to the unoptimised waypoints.
 
 ## Requirements
-- Python 3.9.5
-
-## Installation
-
-### Package Installer for Python
+#### Python 3.9.5
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-### Anaconda
-
-```bash
-$ conda create --name <env> --file conda_requirements.txt
-```
-
-### Convert PNG sequence to GIF (ImageMagick)
+## Convert PNG sequence to GIF (ImageMagick)
 
 ```bash
 $ convert -delay 1x60 visualisation_*.png -loop 0 -background white -alpha remove vis.gif
