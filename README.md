@@ -23,8 +23,6 @@ A controlled real-world test was conducted only on the waypoints which were gene
 ## Requirements
 - Python 3.9.5
 
-## Installation
-
 ```bash
 $ pip install -r requirements.txt
 ```
