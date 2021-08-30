@@ -31,7 +31,6 @@ $ pip install -r requirements.txt
 
 ```bash
 $ convert -delay 1x60 visualisation_*.png -loop 0 -background white -alpha remove vis.gif
-
 ```
 
 ## Issues
