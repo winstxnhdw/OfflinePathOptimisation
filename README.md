@@ -10,15 +10,15 @@ This notebook elaborates the testing and development of an offline path planning
 
 - [Focused Trajectory Planning for Autonomous On-Road Driving](https://www.ri.cmu.edu/pub_files/2013/6/IV2013-Tianyu.pdf) by Gu et. al.
 
-- Segmented Constrained Path Optimisation
+- [Segmented Constrained Path Optimisation](examples/constrained.ipynb)
 
-- Unconstrained Waypoint Optimisation
+- [Unconstrained Waypoint Optimisation](examples/unconstrained.ipynb)
 
-- Controlled Unconstrained Waypoint Optimisation
+- [Controlled Unconstrained Waypoint Optimisation](examples/controlled.ipynb)
 
 ## Results
 
-A controlled real-world test was conducted only on the waypoints which were generated from the Unconstrained Waypoint Optimisation approach. Empirical data displayed a more comfortable and human-like ride when compared to the unoptimised waypoints.
+A controlled real-world test was conducted only on the waypoints which were generated from the [Unconstrained Waypoint Optimisation approach](examples/unconstrained.ipynb). Empirical data displayed a more comfortable and human-like ride when compared to the tracking of unoptimised waypoints. When curb information is accounted for, in the [Controlled Unconstrained Optimisation approach](examples/controlled.ipynb), the resultant path was able to maintain a safer distance from the curb without any noticeable loss in passenger comfort.
 
 ## Requirements
 
