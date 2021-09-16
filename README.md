@@ -18,7 +18,7 @@ This notebook elaborates the testing and development of an offline path planning
 
 ## Results
 
-A controlled real-world test was conducted only on the waypoints which were generated from the [Unconstrained approach](examples/unconstrained.ipynb). Empirical data displayed a more comfortable and human-like ride when compared to the tracking of unoptimised waypoints. When curb information is accounted for, in the [Controlled approach](examples/controlled.ipynb), the resultant path was able to maintain a safer distance from the curb without any noticeable loss in passenger comfort.
+A controlled real-world test was conducted only on the waypoints which were generated from the [unconstrained approach](examples/unconstrained.ipynb). Empirical data displayed a more comfortable and human-like ride when compared to the tracking of unoptimised waypoints. When curb information is accounted for, in the [controlled approach](examples/controlled.ipynb), the resultant path was able to maintain a safer distance from the curb without any noticeable loss in passenger comfort.
 
 ## Requirements
 
