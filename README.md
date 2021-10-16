@@ -27,11 +27,6 @@ A controlled real-world test was conducted only on the waypoints which were gene
 $ pip install -r requirements.txt
 ```
 
-## Convert PNG sequence to GIF (ImageMagick)
-
-```bash
-$ convert -delay 1x60 visualisation_*.png -loop 0 -background white -alpha remove vis.gif
-```
-
 ## Issues
+
 It is important that you adhere to versions stated in `requirements.txt` and install Python 3.9.5. Later versions of NumPy has shown to break the path optimiser.
