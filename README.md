@@ -22,7 +22,7 @@ The pipeline takes a set of coarsely placed waypoints and adjusts their localisa
 
 ## Results
 
-A controlled real-world test was conducted only on the waypoints generated from the [unconstrained approach](examples/unconstrained.ipynb). Empirical data indicated higher comfort levels during transportation when compared to the tracking of unoptimised waypoints. With curb information accounted for (see the [controlled approach](examples/controlled.ipynb)], the resultant path held a safer distance from the curb without any noticeable loss in passenger comfort.
+A controlled real-world test was conducted only on the waypoints generated from the [unconstrained approach](examples/unconstrained.ipynb). Empirical data indicated higher comfort levels during transportation when compared to the tracking of unoptimised waypoints. With curb information accounted for (see the [controlled approach](examples/controlled.ipynb)), the resultant path held a safer distance from the curb without any noticeable loss in passenger comfort.
 
 ## Requirements
 
