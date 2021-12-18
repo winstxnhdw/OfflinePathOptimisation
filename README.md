@@ -4,7 +4,7 @@ This notebook elaborates the testing and development of an offline path planning
 
 ## Objective
 
-The pipeline takes a set of coarsely placed waypoints and adjusts their localisation so as to comply with certain **path curvature** constraints in view of the vehicle's size and steering capability. The adjusted waypoints should be as close as possible to the original waypoints without violating the curvature constraints.
+The pipeline takes a set of coarsely placed waypoints and adjusts their localisation so as to comply with certain **path curvature** constraints in view of the vehicle's size and steering capability. The adjusted waypoints should be as close as possible to the original waypoints without violating any curvature constraints.
 
 <div align="center">
 	<img src="resources/vis.gif" />
