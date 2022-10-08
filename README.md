@@ -27,10 +27,5 @@ A controlled real-world test was conducted only on the waypoints generated from 
 ## Requirements
 
 ```bash
-# Python 3.9.5
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
-
-## Issues
-
-It is important that you adhere to versions stated in `requirements.txt` and install Python 3.9.5. Later versions of NumPy has shown to break the path optimiser.
