@@ -1,7 +1,7 @@
-pandas == 1.2.4
-matplotlib == 3.4.2
-numpy == 1.22.0
-ipympl == 0.7.0
-scipy == 1.7.2
-optimparallel == 0.1.2
-pyqt5 == 5.15.4
+pandas >= 1.2.4
+matplotlib >= 3.4.2
+numpy >= 1.22.0
+ipympl >= 0.7.0
+scipy >= 1.7.2
+optimparallel >= 0.1.2
+pyqt5 >= 5.15.4
